@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: abs-11
+  title: abs-11
+  description: Component for targets
+  annotations:
+    github.com/project-slug: targets
+  tags: 
+    - nodejs
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental
