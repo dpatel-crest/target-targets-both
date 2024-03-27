@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: target-targets-both
+spec:
+  type: url
+  owner: dhrumit
+  lifecycle: experimental
+  target: ./target/backstage.yaml
+  targets:
+    - ./targets/backstage.yaml
